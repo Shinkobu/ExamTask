@@ -1,1 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T09:30:15.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 YaBrowser/22.3.0.2430 Yowser/2.5 Safari/537.36" etag="uNaLXIjlKNjLvi7yDOT_" version="17.4.0" type="github"><diagram id="m_st1EKLFtoHg2Hpq4ld" name="Page-1">dZHBDoIwDIafZnfYjOAZUS+eOHheWGVLBl3GDOjTC9kQFzTpof32d//aEVa049lyI68oQBOaiJGwI6E03VFK5kjE05MsP3jQWCWCaAWVekGASaAPJaCPhA5RO2ViWGPXQe0ixq3FIZbdUceuhjewAVXN9ZbelHDS05xmK7+AauTinO7DfC1fxGGSXnKBwxdiJWGFRXQ+a8cC9Ly8ZS++7/Tn9PMwC5370TAl691TEf0QK98=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-06T12:46:31.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 YaBrowser/22.3.0.2430 Yowser/2.5 Safari/537.36" etag="MTtD1Tiwm2jGS6L4JUmn" version="17.4.0" type="github">
+  <diagram id="m_st1EKLFtoHg2Hpq4ld" name="Page-1">
+    <mxGraphModel dx="981" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-1" target="MZ5dDnsaD8Dz6DDKp84r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-1" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="41" width="80" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.488;entryY=-0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-2" target="MZ5dDnsaD8Dz6DDKp84r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-2" value="&lt;div&gt;Ввод данных&lt;/div&gt;&lt;div&gt;WriteLine(&quot;Введите элементы массива через пробел&quot;);&lt;/div&gt;&lt;div&gt;&lt;span&gt;string text = Console.ReadLine();&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="100" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.528;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-3" target="MZ5dDnsaD8Dz6DDKp84r-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-3" value="Преобразование данных в исходный массив&amp;nbsp;&lt;br&gt;&lt;span&gt;var data = text.Split(&quot; &quot;);&amp;nbsp;&lt;/span&gt;&lt;div&gt;data = data.ToArray();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-7" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-5" target="MZ5dDnsaD8Dz6DDKp84r-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-11" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-5">
+          <mxGeometry x="-0.5796" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="530" />
+              <mxPoint x="20" y="530" />
+              <mxPoint x="20" y="330" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-5" value="Проверка на количество символов&lt;br&gt;if (data[i].Length&amp;lt;=3 )&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-6" target="MZ5dDnsaD8Dz6DDKp84r-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-6" value="Счётчик длины итогового массива&lt;br&gt;k++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-8" target="MZ5dDnsaD8Dz6DDKp84r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-8" target="MZ5dDnsaD8Dz6DDKp84r-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-8" value="Цикл для определения длины итогового массива&amp;nbsp;&lt;br&gt;for (int i = 0; i &amp;lt; data.Length; i++)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="300" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-13" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-15" target="MZ5dDnsaD8Dz6DDKp84r-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-14" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-15">
+          <mxGeometry x="-0.7095" relative="1" as="geometry">
+            <mxPoint x="250" y="615" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="865" />
+              <mxPoint x="20" y="865" />
+              <mxPoint x="20" y="615" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-15" value="Проверка на количество символов&lt;br&gt;if (data[i].Length&amp;lt;=3 &amp;amp;&amp;amp; data[i].Length&amp;gt;0)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="667.5" width="270" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-17" target="MZ5dDnsaD8Dz6DDKp84r-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-17" value="&lt;div&gt;newDataArray[j]=data[i];&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; j++;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="31" y="725" width="139" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-19" target="MZ5dDnsaD8Dz6DDKp84r-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-19" target="MZ5dDnsaD8Dz6DDKp84r-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-19" value="Цикл для заполнения итогового массива&lt;br&gt;for (int i = 0; i &amp;lt; data.Length; i++)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="585" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-20" target="MZ5dDnsaD8Dz6DDKp84r-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="560" />
+              <mxPoint x="360" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-20" value="Создание итогового массива&lt;br&gt;string[] newDataArray = new string[k];" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MZ5dDnsaD8Dz6DDKp84r-23" target="MZ5dDnsaD8Dz6DDKp84r-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-23" value="Вывод итогового массива&lt;br&gt;WriteLine(&quot;Итоговый массив: {0}&quot;,String.Join(&quot; &quot;,newDataArray));" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="585" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ5dDnsaD8Dz6DDKp84r-25" value="End" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="725" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
