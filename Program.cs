@@ -35,12 +35,10 @@ string[] newDataArray = new string[k];
 int j=0;
 for (int i = 0; i < data.Length; i++)
 {
-    if (data[i].Length<=3) 
+    if (data[i].Length<=3 && data[i].Length>0) 
     newDataArray[j]=data[i];   
     j++;       
         
 }
 
 WriteLine("Итоговый массив: {0}",String.Join(" ",newDataArray));
-
-//Массив с элементами меньшими, либо равными 3 символам
